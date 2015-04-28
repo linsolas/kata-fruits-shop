@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class FruitsShopTest {
 
-    BasicLoop casher = new BasicLoop();
+    FruitsShop casher = new FruitsShop();
 
     private void check(String fruit, String val) {
         assertThat(casher.doSomethingWithInput(fruit)).isEqualTo(val);
