@@ -81,7 +81,7 @@ public class FruitsShop {
     }
 
     public static void main(String[] args) {
-        new BasicLoop().loop();
+        new FruitsShop().loop();
     }
 
 }
